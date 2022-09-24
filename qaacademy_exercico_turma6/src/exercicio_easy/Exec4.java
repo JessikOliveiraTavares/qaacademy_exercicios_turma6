@@ -7,6 +7,7 @@ import javax.swing.*;
 public class Exec4 {
     public static void main(String[] args) {
 //Declarar variável do tipo numérico : num1, result;
+
         int num1;
         int result;
         num1 = Integer.parseInt(JOptionPane.showInputDialog("digite um numero"));
