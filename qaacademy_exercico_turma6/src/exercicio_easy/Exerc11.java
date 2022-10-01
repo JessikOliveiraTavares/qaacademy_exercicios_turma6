@@ -1,7 +1,14 @@
 package exercicio_easy;
 
 public class Exerc11 {
-    public static void main(String[] args) {
+    public String somadeumnumero(int numerodigitado) {
+        int soma = numerodigitado, i = 1;
+        while ((i <= 100)) {
+            soma = soma + 2;
+            i++;
+
+        }
+        return "soma é" + soma + "do numero" + numerodigitado;
 
     }
 }

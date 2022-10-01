@@ -1,9 +1,6 @@
 package Main;
 
-import exercicio_easy.Exerc5;
-import exercicio_easy.Exerc6;
-import exercicio_easy.Exerc7;
-import exercicio_easy.Exerc8;
+import exercicio_easy.*;
 
 public class Execucao {
 
@@ -32,11 +29,23 @@ public class Execucao {
 //        System.out.println(exerc7.calcularinss(2000));
 //    }
 
-    public static void main (String[]args){
-        Exerc8 exerc8  = new Exerc8();
-        System.out.println(exerc8.calcularImposto(4000));
+//    public static void main (String[]args){
+//        Exerc8 exerc8  = new Exerc8();
+//        System.out.println(exerc8.calcularImposto(4000));
+//    }
+//
+//        }
+//
+
+//public static void main (String[]args) {
+//    Exerc10 exerc10 = new Exerc10();
+//    System.out.println(exerc10.calcularinvestimento(5000));
+//}
+//}
+
+    public static void main(String[] args) {
+        Exerc11 exerc11 =new Exerc11();
+        System.out.println(exerc11.somadeumnumero(30));
     }
 
-        }
-
-
+}

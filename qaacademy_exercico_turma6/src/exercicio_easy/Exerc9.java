@@ -3,17 +3,35 @@ package exercicio_easy;
 
 
 public class Exerc9 {
-    public static void main(String[] args) {
-int numeroDigitado;
-int i=1;
-        numeroDigitado=Integer.parseInt(JOptionPane.showInputDialog("digite um valor"));
-        while (i<=10){
-            System.out.println(numeroDigitado+"x"+i+"="+numeroDigitado*i);
-            i=i+1;
-        }
-
-    }
 }
+
+//    public String interacaodosnumeros(double valor) {
+//int numeroDigitado;
+//int i=1;
+//
+//        numeroDigitado=Integer.parseInt(JOptionPane.showInputDialog("digite um valor"));
+//        while (i<=10){
+//            System.out.println(numeroDigitado+"x"+i+"="+numeroDigitado*i);
+//            i=i+1;
+//            return "digite um valor";
+//        }
+//
+//    }
+//}
+
+
+
+//    public static void main(String[] args) {
+//        int numeroDigitado;
+//        int i=1;
+//        numeroDigitado=Integer.parseInt(JOptionPane.showInputDialog("digite um valor"));
+//        while (i<=10){
+//            System.out.println(numeroDigitado+"x"+i+"="+numeroDigitado*i);
+//            i=i+1;
+//        }
+//
+//    }
+//}
 
 
 
