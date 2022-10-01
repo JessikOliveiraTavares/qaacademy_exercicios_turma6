@@ -12,7 +12,7 @@ public class Exerc5 {
     }
 
     public String multiplicando(double num1, double num2, double num3) {
-        return " a multiplicacao dos numeros é" + (num1 * num2 * num3);
+        return " a multiplicacao dos numeros é " + (num1 * num2 * num3);
     }
 
     public String subtracao(double num1, double num2, double num3) {
@@ -21,7 +21,7 @@ public class Exerc5 {
 
 
             public String amedia ( double num1, double num2, double num3){
-            return " a medias dos valores é" + (num1 + num2 + num3) / 3;
+            return " a media dos valores é" + (num1 + num2 + num3) / 3;
 
         }
 
