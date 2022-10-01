@@ -8,11 +8,12 @@ public class Exerc1 {
                 System.out.println(i % 2);
                 System.out.println(("o numero é: " + i + " é par"));
 
-            } else {
-                System.out.println(i % 2);
                 System.out.println(("o numero é :" + i + "é impar"));
             }
             i++;
         }
+//    } else {
+//        System.out.println(i % 2);
+//    }
     }
 }

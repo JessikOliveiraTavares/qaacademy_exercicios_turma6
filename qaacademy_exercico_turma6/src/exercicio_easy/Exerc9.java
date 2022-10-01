@@ -1,6 +1,6 @@
 package exercicio_easy;
 
-import javax.swing.*;
+
 
 public class Exerc9 {
     public static void main(String[] args) {

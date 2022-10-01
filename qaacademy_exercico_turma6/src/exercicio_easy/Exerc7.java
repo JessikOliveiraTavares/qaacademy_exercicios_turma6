@@ -1,33 +1,66 @@
 package exercicio_easy;
 
-import javax.swing.*;
-import java.awt.image.FilteredImageSource;
 
 public class Exerc7 {
 
-    public static void main(String[] args) {
-        double salario, inss;
-        salario = Double.parseDouble(JOptionPane.showInputDialog("digite o seu salario"));
+    public String calcularinss(double salario) {
+        double inss;
         if (salario <= 1045.00) {
             inss = salario * 0.075;
-            System.out.println(("o valor que voce de inss será:" + inss));
+
+            return "o valor que voce de inss será:" + inss;
+
         }
+
+
         if (salario >= 1045.00 && salario <= 2089.60) {
             inss = salario * 0.09;
-            System.out.println(("o valor que voce de inss será:" + inss));
 
+            return "o valor que voce de inss será:" + inss;
         }
+
         if (salario >= 2089.60 && salario <= 3134.40) {
             inss = salario * 0.12;
-            System.out.println(("o valor que voce de inss será:" + inss));
-
+            return "o valor que voce de inss será:" + inss;
         }
+
         if (salario >= 3134.40 && salario <= 6101.06) {
             inss = salario * 0.14;
-            System.out.println(("o valor que voce de inss será:" + inss));
+            return "o valor que voce de inss será:" + inss;
         }
+return null;
+
     }
 }
+
+
+
+//    public static void main(String[] args) {
+//        double salario, inss;
+//        salario = Double.parseDouble(JOptionPane.showInputDialog("digite o seu salario"));
+//        if (salario <= 1045.00) {
+//            inss = salario * 0.075;
+//            System.out.println(("o valor que voce de inss será:" + inss));
+//        }
+//        if (salario >= 1045.00 && salario <= 2089.60) {
+//            inss = salario * 0.09;
+//            System.out.println(("o valor que voce de inss será:" + inss));
+//
+//        }
+//        if (salario >= 2089.60 && salario <= 3134.40) {
+//            inss = salario * 0.12;
+//            System.out.println(("o valor que voce de inss será:" + inss));
+//
+//        }
+//        if (salario >= 3134.40 && salario <= 6101.06) {
+//            inss = salario * 0.14;
+//            System.out.println(("o valor que voce de inss será:" + inss));
+//        }
+//    }
+
+    //faça um algoritimo para ler e ixibir uma palavra
+
+
 
 
 //        Declarar variavel do tipo número: salario, inss1,inss2,inss3,inss4;

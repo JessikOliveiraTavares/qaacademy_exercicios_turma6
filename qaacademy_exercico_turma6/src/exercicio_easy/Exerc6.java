@@ -1,6 +1,5 @@
 package exercicio_easy;
 
-import javax.swing.*;
 
 public class Exerc6 {  //inicio da clase
     // public static void main(String[] args) {
@@ -10,18 +9,58 @@ public class Exerc6 {  //inicio da clase
     int soma;
 //
 
-    public double digiteumanota(double nota1, double nota2) {
-        System.out.println("a soma das notas é" + (nota1 + nota2));
-        System.out.println(" a media das notas é " + (nota1 + nota2 / 2));
-        System.out.println(" a nota1 é");
-        System.out.println("a nota2 é");
-
-        return nota1 + nota2;
+    public String digiteumanota(double nota1, double nota2) {
 
 
+        return "a soma das notas é" + (nota1 + nota2);
     }
+
+    public String amedia(double nota1, double nota2) {
+
+        return " a media das notas é " + (nota1 + nota2 / 2);
+    }
+
+
+    public String segundanota(double nota1, double nota2) {
+
+        return "a nota2 é";
+    }
+
+
 }
 
+
+
+
+
+//
+//    public String digiteumanota(double nota1, double nota2) {
+//        System.out.println("a soma das notas é" + (nota1 + nota2));
+//        System.out.println(" a media das notas é " + (nota1 + nota2 / 2));
+//        System.out.println(" a nota1 é");
+//        System.out.println("a nota2 é");
+//
+//        return "a soma das notas é" + (nota1 + nota2);
+//    }
+//
+//    public String amedia(double nota1, double nota2) {
+//        System.out.println("a soma das notas é" + (nota1 + nota2));
+//        System.out.println(" a media das notas é " + (nota1 + nota2 / 2));
+//        System.out.println(" a nota1 é");
+//        System.out.println("a nota2 é");
+//
+//        return " a media das notas é " + (nota1 + nota2 / 2);
+//    }
+//
+//
+//    public String segundanota(double nota1, double nota2) {
+//        System.out.println("a soma das notas é" + (nota1 + nota2));
+//        System.out.println(" a media das notas é " + (nota1 + nota2 / 2));
+//        System.out.println(" a nota1 é");
+//        System.out.println("a nota2 é");
+//        return "a nota2 é";
+//    }
+//
 
 
 
